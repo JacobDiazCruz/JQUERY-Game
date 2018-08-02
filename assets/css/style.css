@@ -5,14 +5,14 @@ html,body{
 
 body{
    overflow: hidden;
-   background-color: black;
+   background-color: #488e3a;
 }
 
 #left{
     position: relative;
     width: 30px;
     height: 200px;
-    background-color: white;
+    background-color: #191e63;
     float: left;
 }
 
@@ -20,7 +20,7 @@ body{
     position: relative;
     width: 30px;
     height: 200px;
-    background-color: white;    
+    background-color: #c62b2b;    
     float: right;
 }
 
@@ -42,4 +42,28 @@ body{
     font-size: 1000%;
     transition: 1.5s all;
     display: inline-block;
+}
+
+#scoreleft {
+    background: #191e63;
+    width: 100px;
+    height: 250px;
+}
+
+#scoreright {
+    background: #c62b2b;
+    width: 500px;
+    height: 250px;
+}
+
+#gilas {
+    color: #191e63;
+}
+
+h2  {
+    color: white;
+}
+
+#aus {
+    color: #c62b2b;
 }
